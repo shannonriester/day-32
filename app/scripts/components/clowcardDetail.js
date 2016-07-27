@@ -12,7 +12,7 @@ const ClowcardDetail = React.createClass({
     });
     console.log(cardObj[0]);
     return (
-      <div>
+      <div className = "card-detail-page">
         <div className="card-detail"><img src={cardObj[0].url} /></div>
         <div className="card-info">
           <ul>

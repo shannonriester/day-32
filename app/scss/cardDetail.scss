@@ -1,46 +1,60 @@
-
-.card-detail {
-  float: left;
-  margin: 0 auto;
-  width: 50%;
-  text-align: center;
-  &:after {
-    clear: both;
-    content: '';
-    display: block;
-  }
-}
-.card-info {
-  float: left;
-  background-image: url('../../assets/clowcard_info.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
-  min-height: 100vh;
-  width: 50%;
-  min-width: 22rem;
-  margin: 0 auto;
-  &:after {
-    clear: both;
-    content: '';
-    display: block;
-  }
-  ul {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-    width: 22rem;
-  }
-  li {
-    margin-top: 25%;
-    list-style-type: none;
+.card-detail-page {
+  .card-detail {
+    float: left;
+    margin: 5% auto;
     width: 50%;
-    font-size: 1.1em;
-    .card-data {
-      margin: 30% 0;
+    text-align: center;
+    &:after {
+      clear: both;
+      content: '';
+      display: block;
     }
+  }
+  .card-info {
+    float: left;
+    background-image: url('../../assets/clowcard_info.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    min-height: 100vh;
+    width: 40%;
+    min-width: 22rem;
+    margin: 5% auto;
+    margin-left: 5%;
+    &:after {
+      clear: both;
+      content: '';
+      display: block;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      padding: 0;
+      margin: 0;
+      width: 22rem;
+    }
+    li {
+      font-style: italic;
+      border-right: $border;
+      margin-top: 25%;
+      list-style-type: none;
+      width: 50%;
+      font-size: 1.1em;
+      .card-data {
+        margin: 12% 0;
+      }
+      .span-card-data {
+        font-weight: bolder;
+        font-style: normal;
+        color: $accent;
+        margin-right: 7em;
+      }
+      h4 {
+        padding: 0;
+        margin: 0;
+      }
 
+    }
   }
 }

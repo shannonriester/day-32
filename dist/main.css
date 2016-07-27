@@ -53,44 +53,54 @@ nav {
     width: 50%;
     margin: 0 auto; }
 
-.card-detail {
+.card-detail-page .card-detail {
   float: left;
-  margin: 0 auto;
+  margin: 5% auto;
   width: 50%;
   text-align: center; }
-  .card-detail:after {
+  .card-detail-page .card-detail:after {
     clear: both;
     content: '';
     display: block; }
-
-.card-info {
+.card-detail-page .card-info {
   float: left;
   background-image: url("../../assets/clowcard_info.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
   min-height: 100vh;
-  width: 50%;
+  width: 40%;
   min-width: 22rem;
-  margin: 0 auto; }
-  .card-info:after {
+  margin: 5% auto;
+  margin-left: 5%; }
+  .card-detail-page .card-info:after {
     clear: both;
     content: '';
     display: block; }
-  .card-info ul {
+  .card-detail-page .card-info ul {
     display: flex;
     justify-content: center;
     height: 100vh;
     padding: 0;
     margin: 0;
     width: 22rem; }
-  .card-info li {
+  .card-detail-page .card-info li {
+    font-style: italic;
+    border-right: #6699CC;
     margin-top: 25%;
     list-style-type: none;
     width: 50%;
     font-size: 1.1em; }
-    .card-info li .card-data {
-      margin: 30% 0; }
+    .card-detail-page .card-info li .card-data {
+      margin: 12% 0; }
+    .card-detail-page .card-info li .span-card-data {
+      font-weight: bolder;
+      font-style: normal;
+      color: #E81C4F;
+      margin-right: 7em; }
+    .card-detail-page .card-info li h4 {
+      padding: 0;
+      margin: 0; }
 
 body {
   margin: 0;

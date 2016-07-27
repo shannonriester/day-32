@@ -14,7 +14,7 @@ const cardsCollection = [
     'id'    : 2,
     'name'  : 'The Firey',
     'url'   : '../../assets/The_firey.jpg',
-    'magic' : 'Firey\'s primary magic is his pyrokinesis. He can create powerful fires from thin air, as well as manipulate any existing flames. It is also shown that he can regulate temperatures to high levels, as he can be used to defeat Snow. It can also turn up the heat with thermokinesis.',
+    'magic' : 'Pyrokinesis. Firey can create powerful fires from thin air or manipulate any existing flames. It can also regulate temperatures with thermokinesis.',
     'elemental': true,
     'value' : 9,
     'creator': 'Clow Reed',
