@@ -2,7 +2,7 @@ const cardsCollection = [
   {
   'id'    : 1,
   'name'  : 'The Windy',
-  'url'   : '../../assets/The_windy.jpg',
+  'url'   : '/Users/shannonriester/Desktop/tiy/day-32/assignments/CardcaptorsTrading/app/assets/The_windy.jpg',
   'magic' : 'Aerokenesis. The Windy\'s primary magic is to create strong winds. These winds can be used to blow away objects or bind creatures.',
   'elemental': true,
   'value' : 9,
