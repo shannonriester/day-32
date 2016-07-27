@@ -1,3 +1,21 @@
+.profile-page {
+  background-image: url("../../assets/sakura_flowers.png");
+  height: 100vh;
+  margin: 0;
+  color: red; }
+
+body {
+  margin: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #5A5555;
+  background: #F8F9F9; }
+  body h1, body h2, body h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #333333; }
+
 .card-detail {
   float: left;
   margin: 0 auto;
