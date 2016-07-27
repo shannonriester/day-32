@@ -3,7 +3,7 @@ import usersCollection from './collections/cardsCollection';
 
 const store = {
   session: {
-    'username': '',
+    'username': 'filler',
     'password': ''
   },
   cards: cardsCollection,
