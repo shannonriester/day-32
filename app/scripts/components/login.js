@@ -21,7 +21,7 @@ const Login = React.createClass({
         <input type="text" placeholder="username" ref="username"/>
         <input type="password" placeholder="password" ref="password"/>
         <input className="button" type="submit" value="enter" />
-        <input className="button" type="button" value="or sign up!" />
+        <input className="button" type="button" value="or sign up!" onClick={this.signupFunction} />
       </form>
     );
   }
