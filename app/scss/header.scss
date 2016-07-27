@@ -1,0 +1,36 @@
+nav {
+  background: $background-secondary;
+  margin: 0 auto;
+  display: flex;
+  h1 {
+    margin: 0;
+    padding: 1.5%;
+    color: $headings;
+  }
+  ul {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    li {
+      list-style-type: none;
+      margin: 0% 5%;
+      padding: 2%;
+      display: inline;
+      color: $text;
+      align-self: center;
+      &:hover {
+        border: 1px solid $text;
+        border-radius: 2px;
+        // font-weight: bold;
+        background: rgba($background-secondary, .2);
+      }
+      a {
+        text-decoration: none;
+        border-bottom: $border;
+        color: $text;
+      }
+    }
+  }
+}

@@ -9,7 +9,7 @@ const UsersCardsList = React.createClass({
       return <CardListItem card={card} key={i} />
     });
     return (
-      <ul>
+      <ul className="card-list-page">
         {cardArr}
       </ul>
     );

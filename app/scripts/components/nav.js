@@ -9,15 +9,15 @@ const Nav = React.createClass({
       <nav>
         <h1>Cardcaptors Trading Cards</h1>
         <ul className="nav-main">
-          <Link to={`/user/${store.session.username}/`}><li>Home</li></Link>
-          <Link to={`/user/${store.session.username}/cardsCollection`}><li>Your Cards</li></Link>
-          <Link to={`/user/${store.session.username}/cardsCollection/addNewCard`}><li>Add Card</li></Link>
+          <li><Link to={`/user/${store.session.username}/`}>Home</Link></li>
+          <li><Link to={`/user/${store.session.username}/cardsCollection`}>Your Cards</Link></li>
+          <li><Link to={`/user/${store.session.username}/cardsCollection/addNewCard`}>Add Card</Link></li>
         </ul>
         {this.props.children}
         <ul className="nav-session">
-          <Link to="/login"><li className="login-button">Login</li></Link>
-          <Link to="/signup"><li className="signup-button">Sign Up</li></Link>
-          <Link to="/login"><li className="logout-button">Logout</li></Link>
+          <li className="login-button"><Link to="/login">Login</Link></li>
+          <li className="signup-button"><Link to="/signup">Sign Up</Link></li>
+          <li className="logout-button"><Link to="/login">Logout</Link></li>
         </ul>
       </nav>
     );
