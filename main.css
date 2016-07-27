@@ -118,6 +118,18 @@ form .button {
     font-weight: bold;
     background: #E81C4F;
     color: #FFF; }
+form .image-link-cardcaptors {
+  text-decoration: none; }
+  form .image-link-cardcaptors p {
+    text-align: center;
+    color: #E81C4F;
+    margin: 0;
+    padding: 2%; }
+    form .image-link-cardcaptors p:hover {
+      font-weight: bold;
+      background: #E81C4F;
+      color: #FFF;
+      text-decoration: none; }
 
 body {
   margin: 0;
