@@ -30,7 +30,7 @@ const AddNewCard = React.createClass({
         <input type="text" placeholder="Value" ref="cardValue"/>
         <input type="text" placeholder="Creator" ref="cardCreator"/>
         <input type="text" placeholder="Guardian" ref="cardGuardian"/>
-        <input type="submit" value="enter" />
+        <input className="button" type="submit" value="enter" />
       </form>
     );
   }

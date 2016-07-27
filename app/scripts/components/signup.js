@@ -19,11 +19,11 @@ const Signup = React.createClass({
   // },
   render: function(){
     return (
-      <form onSubmit={this.signupFunction}>
+      <form className="submit-page" onSubmit={this.signupFunction}>
         <input type="text" placeholder="create username" ref="username"/>
         <input type="password" placeholder="create password" ref="password"/>
         <input type="password" placeholder="verify password" ref="password2"/>
-        <input type="submit" value="enter" />
+        <input className="button" type="submit" value="enter" />
       </form>
     );
   }

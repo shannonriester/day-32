@@ -1,0 +1,21 @@
+form {
+  input {
+    border: none;
+    border-radius: 2px;
+    padding: 2%;
+    font-size: 1.3em;
+    color: $accent;
+    background: #FFF;
+    width: 100vw;
+    height: 15vh;
+    border-bottom: 1px solid $border;
+  }
+  .button {
+    padding: 5%;
+    &:hover {
+      font-weight: bold;
+      background: $accent;
+      color: #FFF;
+    }
+  }
+}
