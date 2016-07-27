@@ -102,6 +102,23 @@ nav {
       padding: 0;
       margin: 0; }
 
+form input {
+  border: none;
+  border-radius: 2px;
+  padding: 2%;
+  font-size: 1.3em;
+  color: #E81C4F;
+  background: #FFF;
+  width: 100vw;
+  height: 15vh;
+  border-bottom: 1px solid #6699CC; }
+form .button {
+  padding: 5%; }
+  form .button:hover {
+    font-weight: bold;
+    background: #E81C4F;
+    color: #FFF; }
+
 body {
   margin: 0;
   font-family: Avenir, Helvetica, Arial, sans-serif;
