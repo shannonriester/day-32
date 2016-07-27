@@ -25,7 +25,7 @@ const AddNewCard = React.createClass({
       <form onSubmit={this.addCard}>
         <input type="text" placeholder="Card Name" ref="cardName"/>
         <input type="text" placeholder="image url" ref="cardUrl"/>
-        <a href="http://cardcaptorsakura.wikia.com/wiki/Clow_Cards">Get images here...</a>
+        <a className="image-link-cardcaptors" href="http://cardcaptorsakura.wikia.com/wiki/Clow_Cards"><p>Get images here...</p></a>
         <input type="text" placeholder="Magic" ref="cardMagic"/>
         <input type="text" placeholder="Value" ref="cardValue"/>
         <input type="text" placeholder="Creator" ref="cardCreator"/>

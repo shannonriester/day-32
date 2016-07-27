@@ -18,4 +18,19 @@ form {
       color: #FFF;
     }
   }
+  .image-link-cardcaptors{
+    text-decoration: none;
+    p {
+      text-align: center;
+      color: $accent;
+      margin: 0;
+      padding: 2%;
+    &:hover {
+      font-weight: bold;
+      background: $accent;
+      color: #FFF;
+      text-decoration: none;
+    }
+   }
+  }
 }
