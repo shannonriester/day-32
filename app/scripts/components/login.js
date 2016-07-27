@@ -8,8 +8,8 @@ const Login = React.createClass({
     e.preventDefault();
     store.session.username = this.refs.username.value;
     store.session.password = this.refs.password.value;
-    // console.log('session', store.session);
-    hashHistory.push(`/user/${store.session.username}/cardsCollection`);
+    console.log('session', store.session);
+    hashHistory.push(`/user/${store.session.username}`);
   },
   signupFunction: function(e) {
     e.preventDefault();

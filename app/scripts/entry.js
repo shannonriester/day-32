@@ -7,6 +7,7 @@ import App from './components/App';
 import Nav from './components/nav';
 import Login from './components/login';
 import Signup from './components/signup';
+import AddNewCard from './components/addNewCard';
 import CardsList from './components/cardsList';
 import ClowcardDetail from './components/clowcardDetail';
 import Profile from './components/profile';
@@ -15,9 +16,10 @@ const router = (
 
   <Router history={hashHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={CardsList}/>
+      <IndexRoute component={Profile}/>
       <Route path="/login" component={Login}/>
       <Route path="/signup" component={Signup}/>
+      <Route path="/user/:username/cardsCollection/addNewCard" component={AddNewCard}/>
       <Route path="/user/:username" component={Profile}/>
       <Route path="/user/:username/cardsCollection" component={CardsList}/>
       <Route path="/user/:username/cardsCollection/clowcard/:name" component={ClowcardDetail}/>
@@ -26,4 +28,3 @@ const router = (
 );
 
 ReactDOM.render(router, document.getElementById('cards-page'));
-// ReactDOM.render(<Nav />, document.getElementById('header'));

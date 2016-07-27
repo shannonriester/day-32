@@ -1,3 +1,22 @@
+@import "_variables.scss";
+@import "header.scss";
+@import "profile.scss";
+
+body {
+  margin: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: $text;
+  background: $background-main;
+  h1, h2, h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: $headings;
+  }
+}
+
+
 .card-detail {
   float: left;
   margin: 0 auto;

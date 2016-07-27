@@ -1,17 +1,14 @@
 import React from 'react';
 
 import store from '../store';
+import profileListItem from './profileDetail';
 
 const Profile = React.createClass({
   render: function() {
-    let userArr = store.users.map(user, i) =>{
-      return <UserProfile user={user} key={i} />
-    }
+
     return (
       <div className="profile-page">
-        <ul className="profile-ul">
-          {userArr}
-        </ul>
+          Hi, {store.session.username}!
       </div>
     );
   }

@@ -16,8 +16,8 @@ const Nav = React.createClass({
         {this.props.children}
         <ul className="nav-session">
           <Link to="/login"><li className="login-button">Login</li></Link>
-          <li className="signup-button">Sign Up</li>
-          <li className="logout-button">Logout</li>
+          <Link to="/signup"><li className="signup-button">Sign Up</li></Link>
+          <Link to="/login"><li className="logout-button">Logout</li></Link>
         </ul>
       </nav>
     );
